@@ -36,3 +36,23 @@
     src: url('HelveticaNeueLTStd-UltLtCn.woff2') format('woff2');
     src: url('HelveticaNeueLTStd-UltLtCn.woff') format('woff');
 }
+
+html{
+    background-color: beige;
+}
+
+body {
+    font-family: Arial, Helvetica, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+   position: relative;
+   background-color: hsl(0, 96%, 50%);
+   margin: 4rem 4rem 0 4rem 
+}
+
+.kicker {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
