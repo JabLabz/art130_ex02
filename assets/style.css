@@ -48,7 +48,8 @@ body {
 .wrapper {
    position: relative;
    background-color: hsl(0, 96%, 50%);
-   margin: 4rem 4rem 0 4rem 
+   margin: 4rem 4rem 0 4rem;
+   padding:2rem;
 }
 
 .kicker {
@@ -56,3 +57,24 @@ body {
     margin-bottom: 0.5rem;
 }
 
+h1 {
+    font-family: 'sabotage';
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 3.5rem;
+}
+
+h1 .larger-names {
+    font-size: 5rem;
+    line-height: 0.8;
+    margin-top: 3.5rem;
+}
+
+h1 .wide-letterspacing {
+    letter-spacing: 0.1rem;
+}
+
+h1 .title {
+    position:absolute;
+
+}
